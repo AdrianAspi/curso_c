@@ -14,6 +14,11 @@ int main (){
     cin>>año;
     cout<<"tu edad es"<<endl;
     res=edad(año);
-    cout<<res;
+    if(res<=17){
+        cout<<"eres menor de edad"<<endl;
+    } else {
+        cout<<"eres mayor de edad"<<endl;
+    }
+    cout<<"tu edad es: "<<res;
     return 0;
 }
