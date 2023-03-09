@@ -1,24 +1,15 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
-int main() {
-    int i;
-    int num;
-    int *p;
-    bool es_primo=true;
-    num=53;
-    for(i=2;i<= sqrt(num);i++){
-        if(num%i==0){
-            es_primo=false;
-            break;
-        }
+int main(){
+    string productos[5]={"arroz","aceite","caramelo","ajinomen","pan"};
+    int precio[5];
+    int tamaño= sizeof(productos)/sizeof(productos[0]);
+    for(int i=0;i<tamaño;i++){
+        cout<<"\n"<<"poner el precio al producto "<<productos[i]<<"\n";
+        cin>>precio[i];
     }
-    if(es_primo){
-        cout<<num<<" es primo"<<endl;
-    }else{
-        cout<<num<<" no es primo"<<endl;
+    for(int i=0;i<tamaño;i++){
+        cout<<"\n"<<productos[i]<<" = "<<precio[i];
     }
-    p=&num;
-    cout<<p;
     return 0;
 }
