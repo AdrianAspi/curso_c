@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int num[5];
-    int ordenar[5];
+    int num[25];
+    int ordenar[25];
+    int promedio;
+    int media;
     //hallamos el tamaño de larreglo
     int tamaño= sizeof(num)/sizeof(num[0]);
     //el usuario pone los numeros
@@ -35,5 +37,11 @@ int main(){
     for(int i=tamaño-1;i>-1;i=i-1){
         cout<<num[i]<<"; ";
     }
+    promedio=suma/tamaño;
+    cout<<"el promedio es: "<<promedio<<endl;
+    media=tamaño/2;
+    cout<<"la media del arreglo es: "<<num[media]<<endl;
+    cout<<"escriba el numero de la posision media del arreglo"<<endl;
+    cin>>num[media];
     return 0;
 }
