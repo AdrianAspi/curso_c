@@ -1,0 +1,24 @@
+forma simplificada de detener el codigo por un determinado timepi en milidegundos
+#include <chrono>
+#include <thread>
+using namespace std;
+
+void esperar(double t) {
+    chrono::milliseconds duracion(static_cast<int>(t));
+    this_thread::sleep_for(duracion);
+}
+
+
+borrar pantalla otros dos metodos 
+#include <iostream>
+
+void borrar_pantalla() {
+    std::cout << "\033[2J\033c";
+}
+
+
+#include <ncurses.h>
+
+void borrar_pantalla() {
+    clear();
+}
