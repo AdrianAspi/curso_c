@@ -5,7 +5,7 @@
 using namespace std;
 
 void esperar(double t);
-
+void dibujar(string mipantalla[81][35]);
 int main() {
     char mv;//capta el movimiento que quiere que se haga
     string mipantalla[81][35];//dimension de la pantalla en formato cadena
@@ -59,13 +59,7 @@ int main() {
 		mipantalla[ptx][pty] = "*";
 	}
 	//se crea cadenas con la informacion dada y se esbre linea por linea 
-	for (y=1;y<=34;y++) {
-		linea = "";
-		for (x=1;x<=80;x++) {
-			linea = linea+mipantalla[x][y];
-		}
-		cout << linea << endl;
-	}
+	dibujar(mipantalla);
 	//dentro de un do while se dicta que el bucle sera infinito si la condion de victoria es = a 1
 	do {
 		cin >> mv;//se pude al usuario escribir el movimiento que se ejucatara con la ayuda de un switch
@@ -94,13 +88,7 @@ int main() {
 			mipantalla[n3][34] = "o";
             system("cls");//se limpia la pantalla
 			//se dibuja la pantalla con los datos cambiados
-			for (y=1;y<=34;y++) {
-				linea = "";
-				for (x=1;x<=80;x++) {
-					linea = linea+mipantalla[x][y];
-				}
-				cout << linea << endl;
-			}
+			dibujar(mipantalla);
 			break;
 		case 'd':
 		    wc = 1;//iinicializamos la condicion de victoria
@@ -126,13 +114,7 @@ int main() {
 			mipantalla[n3][34] = "o";
             system("cls");//se ñimpia la pantalla
 			//se dibija la pantalla con los datos cambiados
-			for (y=1;y<=34;y++) {
-				linea = "";
-				for (x=1;x<=80;x++) {
-					linea = linea+mipantalla[x][y];
-				}
-				cout << linea << endl;
-			}
+			dibujar(mipantalla);
 			break;
 		case 'w'://moviemiento a la derecha
 			wc = 2;//se da por entendido que si no cambia la condicion de victoria se acabara el juego
@@ -143,13 +125,7 @@ int main() {
 				ch = ch-1;
 				mipantalla[pry][atp] = "|";//se pone el proyectil en la posicion x, y correspondiente
                 system("cls");//se limpia la pantalla
-				for (y=1;y<=34;y++) {
-					linea = "";
-					for (x=1;x<=80;x++) {
-						linea = linea+mipantalla[x][y];
-					}
-					cout << linea << endl;
-				}
+				dibujar(mipantalla);
 				esperar(100);//se crea una funcion para que tarde x milisegundos en seguir ejecutando
 				mipantalla[pry][atp] = " ";//ala posicion actual del proyecil se deja en blanco
 				atp = atp-1;//se coloca la nueva altura del proyectil
@@ -164,13 +140,7 @@ int main() {
 			mipantalla[pry][atp] = " ";//se borra la posicion actual del proyectil
             system("cls");//se limpia la pantalla
 			//se dibuja la pantalla con los datos actualizados
-			for (y=1;y<=34;y++) {
-				linea = "";
-				for (x=1;x<=80;x++) {
-					linea = linea+mipantalla[x][y];
-				}
-				cout << linea << endl;
-			}
+			dibujar(mipantalla);
 			atp = 33;//se coloca el numero de la posicon del proyectil donde inicia
 			//se crea un bucle que revise si hay algun objtivo ne el rango de y de 1 a 15 el rango de x 1 a 80
 			for (y=1;y<=15;y++) {
@@ -186,13 +156,7 @@ int main() {
 		default:
 			system("cls");//se limpia la pantalla
 			//se dibuja la pantalla con los datos actualizados
-			for (y=1;y<=34;y++) {
-				linea = "";
-				for (x=1;x<=80;x++) {
-					linea = linea+mipantalla[x][y];
-				}
-				cout << linea << endl;
-			}
+			dibujar(mipantalla);
             break;
 		}
 	} while (wc==1);
@@ -205,6 +169,16 @@ int main() {
 	cout << "          w  w   w  w              II           N        N  N  " << endl;
 	cout << "           w       w         IIIIIIIIIIIIII     N          NN  " << endl;
 	return 0;
+}
+void dibujar(string mipantalla[81][35]){
+	string linea="";
+	for (int y=1;y<=34;y++) {
+				linea = "";
+				for (int x=1;x<=80;x++) {
+					linea = linea+mipantalla[x][y];
+				}
+				cout << linea << endl;
+			}
 }
 void esperar(double t) {
 	clock_t t0 = clock();//timepo actual del reloj de la computadora
