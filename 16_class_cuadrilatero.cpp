@@ -13,41 +13,41 @@ resuelva las siguiente interrogantes
 using namespace std;
 class Cuadrilatero{
     private:
-    int lado_1,lado_2;
+    int lado[2];
     public:
     //constructor
-    Cuadrilatero(int _lado_1,int _lado_2){
-        lado_1=_lado_1;
-        lado_2=_lado_2;
+    Cuadrilatero(int lado_1,int lado_2){
+        lado[0]=lado_1;
+        lado[1]=lado_2;
     }
     //get and set
     int getLado_1(){
-        return lado_1;
+        return lado[0];
     }
     int getLado_2(){
-        return lado_2;
+        return lado[1];
     }
     void setLado_1(int lado1){
-        lado_1=lado1;
+        lado[0]=lado1;
     }
     void setLado_2(int lado2){
-        lado_2=lado2;
+        lado[1]=lado2;
     }
     void setLado_1_and_2(int lado1,int lado2){
-        lado_1=lado1;
-        lado_2=lado2;
+        lado[0]=lado1;
+        lado[1]=lado2;
     }
     //suma de lados
     int getSuma_lados(){
-        return lado_1+lado_2;
+        return lado[0]+lado[1];
     }
     //perimetro
     int getPerimetro(){
-        return 2*(lado_1+lado_2);
+        return 2*(lado[0]+lado[1]);
     }
     //area
     int getArea(){
-        return lado_1*lado_2;
+        return lado[0]*lado[1];
     }
 };
 int main(){
