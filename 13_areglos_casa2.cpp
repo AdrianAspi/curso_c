@@ -111,9 +111,9 @@ void invertir_matriz(int fila,int columna,int matriz[5][5]){
     //segunda forma
     for(int i=0;i<fila;i++){
         for(int j=0;j<columna;j++){
-            invertir_matriz=matriz[j][i];
-            matriz[j][i]=matriz[i][j];
-            matriz[i][j]=invertir_matriz;
+            invertir_matriz=matriz[i][j];
+            matriz[i][j]=matriz[j][i];
+            matriz[j][i]=invertir_matriz;
         }
     }
 }
