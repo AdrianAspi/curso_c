@@ -1,3 +1,4 @@
+/*28/02/2023*/
 #include <iostream>
 using namespace std;
 int area(int a,int h);
