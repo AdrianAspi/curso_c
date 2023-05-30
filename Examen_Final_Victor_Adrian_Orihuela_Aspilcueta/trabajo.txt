@@ -5,18 +5,18 @@ diferentes trabajos, per la empresa quiere saber cuales son los servicios de tal
 realiza y el tiempo que les lleva a sus empleados en ejecutarlo, la empresa también desea saber 
 quienes son sus clientes mas comunes para establecer una campaña de fidelización y marqueteo.
 
-1.Elabore el diagrama de clases→3ptos listo
+1.Elabore el diagrama de clases→3ptos
 
-2.Implemente los métodos básicos para cada entidad→3ptos listo
+2.Implemente los métodos básicos para cada entidad→3ptos
 
-3.Elabore los métodos necesarios para el problema→3ptos listo
+3.Elabore los métodos necesarios para el problema→3ptos
 
-4.Implemente un reporte para ver el stock de productos por fecha de registro, cantidad y categoría→3ptos listo
+4.Implemente un reporte para ver el stock de productos por fecha de registro, cantidad y categoría→3ptos
 
 5.Implemente un reporte de los servicios realizados por el taller, quien lo realiza y que tiempo le toma,
 asímismo de los repuestos vendidos en el servicio→3ptos
 
-6.Implemente un reporte de los clientes comunes y el consumo por fecha→3ptos listo
+6.Implemente un reporte de los clientes comunes y el consumo por fecha→3ptos
 
-7.Elabore un menúdinámico→2ptos listo
+7.Elabore un menúdinámico→2ptos
 
