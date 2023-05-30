@@ -1,4 +1,3 @@
-/*09/03/2023*/
 #include <iostream>
 using namespace std;
 int edad(int year);//funcion para calcular la edad de una persona solo con el año de nacimiento
