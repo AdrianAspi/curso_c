@@ -1,7 +1,7 @@
-/*06/04/2023*/
 #include <iostream>
 #include <string>
 using namespace std;
+//clase curso
 class Curso{
     private:
     //atributos
@@ -13,6 +13,7 @@ class Curso{
     public:
     //contructor
     Curso(string _nombre,string _codigo,string _profesor,float _credito,float _actitudinal,float _parcial_1,float _parcial_2,float _medio_curso,float _final_curso){
+        //inicializar los valores de la clase
         nombre=_nombre;
         codigo=_codigo;
         profesor=_profesor;
