@@ -1,4 +1,3 @@
-/*28/02/2023*/
 #include <iostream>
 using namespace std;
 int promedio(int n1,int n2,int n3);//funcion para calcular el promedio
