@@ -1,4 +1,3 @@
-/*23/03/2023*/
 #include <iostream>
 #include <cstdlib>
 #include <ctime>//libreria para tomar el tiempo del reloj de la computadora
