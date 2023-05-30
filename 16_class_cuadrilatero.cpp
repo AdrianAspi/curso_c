@@ -1,4 +1,3 @@
-/*11/04/2023*/
 /*Elaborar un ejercicio
 elabore un clase denominada cuadrilátero, implemente sus atributos y métodos
 resuelva las siguiente interrogantes
@@ -12,8 +11,10 @@ resuelva las siguiente interrogantes
 #include <iostream>
 #include <string>
 using namespace std;
+//clase
 class Cuadrilatero{
     private:
+    //atributos
     int lado[2];
     public:
     //constructor
@@ -52,11 +53,13 @@ class Cuadrilatero{
     }
 };
 int main(){
+    //declaracion e inicializacion
     Cuadrilatero cuadrado_1(9,9);
     Cuadrilatero cuadrado_2(12,12);
     Cuadrilatero cuadrado_3(15,15);
     cuadrado_2.setLado_1_and_2(10,11);
     cuadrado_3.setLado_1_and_2(18,25);
+    //llamar funciones con cambios en el main
     cout<<"la suma de los 2 lados del cuadrado 1 es : "<<cuadrado_1.getSuma_lados()<<"\n";
     cout<<"la suma de los 2 lados del cuadrado 2 es : "<<cuadrado_2.getSuma_lados()<<"\n";
     cout<<"la suma de los 2 lados del cuadrado 3 es : "<<cuadrado_3.getSuma_lados()<<"\n";
