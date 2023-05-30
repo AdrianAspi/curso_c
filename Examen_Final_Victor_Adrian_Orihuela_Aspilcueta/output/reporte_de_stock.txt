@@ -1,0 +1,17 @@
+-------------------MOTOS-------------------
+cantida : [ 10 ]-----cantida : [ 10 ]-----fecha de registro : [ 04/05/2010 ]-----cantida : [ motocicleta ]
+cantida : [ 12 ]-----cantida : [ 12 ]-----fecha de registro : [ 15/03/2009 ]-----cantida : [ motocicleta ]
+cantida : [ 11 ]-----cantida : [ 11 ]-----fecha de registro : [ 30/08/2012 ]-----cantida : [ motocicleta ]
+cantida : [ 8 ]-----cantida : [ 8 ]-----fecha de registro : [ 12/10/2015 ]-----cantida : [ motocicleta ]
+cantida : [ 9 ]-----cantida : [ 9 ]-----fecha de registro : [ 28/04/2013 ]-----cantida : [ motocicleta ]
+-----------------REPUESTOS------------------
+cantida : [ 10 ]-----fecha de registro : [ 04/05/2001 ]-----categoria : [ motocicleta ]
+cantida : [ 18 ]-----fecha de registro : [ 03/06/2002 ]-----categoria : [ motocicleta ]
+cantida : [ 15 ]-----fecha de registro : [ 02/07/2014 ]-----categoria : [ motocicleta ]
+cantida : [ 30 ]-----fecha de registro : [ 01/08/2011 ]-----categoria : [ motocicleta ]
+cantida : [ 24 ]-----fecha de registro : [ 05/09/2020 ]-----categoria : [ motocicleta ]
+cantida : [ 8 ]-----fecha de registro : [ 06/10/2013 ]-----categoria : [ motocicleta ]
+cantida : [ 12 ]-----fecha de registro : [ 07/01/2017 ]-----categoria : [ motocicleta ]
+cantida : [ 6 ]-----fecha de registro : [ 08/02/2018 ]-----categoria : [ motocicleta ]
+cantida : [ 4 ]-----fecha de registro : [ 09/03/2011 ]-----categoria : [ motocicleta ]
+cantida : [ 6 ]-----fecha de registro : [ 10/04/2010 ]-----categoria : [ motocicleta ]

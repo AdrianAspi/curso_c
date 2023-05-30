@@ -1,0 +1,70 @@
+---------------------------------------
+nombre: Laura, apellido: Torres, codigo: 006, dni: 98765432, teléfono: 954321098, sexo: Femenino, dirección: Avenida F, edad: 27
+-----------------MOTOS------------------
+Código: 12345, Marca: Honda, Modelo: CBR650R, Color: Rojo, Año: 2021, Precio: 10000, Cantidad: 10
+Código: 56789, Marca: Kawasaki, Modelo: Ninja 650, Color: Verde, Año: 2022, Precio: 9000, Cantidad: 12
+Código: 98765, Marca: Yamaha, Modelo: YZF-R1, Color: Azul, Año: 2020, Precio: 15000, Cantidad: 11
+Código: 24680, Marca: Suzuki, Modelo: GSX-R750, Color: Negro, Año: 2021, Precio: 11000, Cantidad: 8
+Código: 13579, Marca: Ducati, Modelo: Panigale V4, Color: Amarillo, Año: 2022, Precio: 20000, Cantidad: 9
+-----------------REPUESTOS------------------
+Nombre: Bujía, Marca: NGK, Código: B06, Precio: 12, Cantidad: 8
+Nombre: Cadena de Transmisión, Marca: RK, Código: B07, Precio: 50, Cantidad: 12
+Nombre: Amortiguador Trasero, Marca: Ohlins, Código: B08, Precio: 300, Cantidad: 6
+Nombre: Escape, Marca: Akrapovic, Código: B09, Precio: 500, Cantidad: 4
+Nombre: Amortiguador delantero, Marca: Ohlins, Código: B10, Precio: 270, Cantidad: 6
+---------------------------------------
+nombre: Jose, apellido: Sanchez, codigo: 007, dni: 34567890, teléfono: 967890543, sexo: Masculino, dirección: Calle G, edad: 33
+-----------------MOTOS------------------
+Código: 12345, Marca: Honda, Modelo: CBR650R, Color: Rojo, Año: 2021, Precio: 10000, Cantidad: 10
+Código: 56789, Marca: Kawasaki, Modelo: Ninja 650, Color: Verde, Año: 2022, Precio: 9000, Cantidad: 12
+Código: 98765, Marca: Yamaha, Modelo: YZF-R1, Color: Azul, Año: 2020, Precio: 15000, Cantidad: 11
+Código: 24680, Marca: Suzuki, Modelo: GSX-R750, Color: Negro, Año: 2021, Precio: 11000, Cantidad: 8
+Código: 13579, Marca: Ducati, Modelo: Panigale V4, Color: Amarillo, Año: 2022, Precio: 20000, Cantidad: 9
+-----------------REPUESTOS------------------
+Nombre: Bujía, Marca: NGK, Código: B06, Precio: 12, Cantidad: 8
+Nombre: Cadena de Transmisión, Marca: RK, Código: B07, Precio: 50, Cantidad: 12
+Nombre: Amortiguador Trasero, Marca: Ohlins, Código: B08, Precio: 300, Cantidad: 6
+Nombre: Escape, Marca: Akrapovic, Código: B09, Precio: 500, Cantidad: 4
+Nombre: Amortiguador delantero, Marca: Ohlins, Código: B10, Precio: 270, Cantidad: 6
+---------------------------------------
+nombre: Sofia, apellido: Martinez, codigo: 008, dni: 09876543, teléfono: 943210987, sexo: Femenino, dirección: Avenida H, edad: 29
+-----------------MOTOS------------------
+Código: 12345, Marca: Honda, Modelo: CBR650R, Color: Rojo, Año: 2021, Precio: 10000, Cantidad: 10
+Código: 56789, Marca: Kawasaki, Modelo: Ninja 650, Color: Verde, Año: 2022, Precio: 9000, Cantidad: 12
+Código: 98765, Marca: Yamaha, Modelo: YZF-R1, Color: Azul, Año: 2020, Precio: 15000, Cantidad: 11
+Código: 24680, Marca: Suzuki, Modelo: GSX-R750, Color: Negro, Año: 2021, Precio: 11000, Cantidad: 8
+Código: 13579, Marca: Ducati, Modelo: Panigale V4, Color: Amarillo, Año: 2022, Precio: 20000, Cantidad: 9
+-----------------REPUESTOS------------------
+Nombre: Bujía, Marca: NGK, Código: B06, Precio: 12, Cantidad: 8
+Nombre: Cadena de Transmisión, Marca: RK, Código: B07, Precio: 50, Cantidad: 12
+Nombre: Amortiguador Trasero, Marca: Ohlins, Código: B08, Precio: 300, Cantidad: 6
+Nombre: Escape, Marca: Akrapovic, Código: B09, Precio: 500, Cantidad: 4
+Nombre: Amortiguador delantero, Marca: Ohlins, Código: B10, Precio: 270, Cantidad: 6
+---------------------------------------
+nombre: Andres, apellido: Hernandez, codigo: 009, dni: 56789012, teléfono: 921098765, sexo: Masculino, dirección: Calle I, edad: 34
+-----------------MOTOS------------------
+Código: 12345, Marca: Honda, Modelo: CBR650R, Color: Rojo, Año: 2021, Precio: 10000, Cantidad: 10
+Código: 56789, Marca: Kawasaki, Modelo: Ninja 650, Color: Verde, Año: 2022, Precio: 9000, Cantidad: 12
+Código: 98765, Marca: Yamaha, Modelo: YZF-R1, Color: Azul, Año: 2020, Precio: 15000, Cantidad: 11
+Código: 24680, Marca: Suzuki, Modelo: GSX-R750, Color: Negro, Año: 2021, Precio: 11000, Cantidad: 8
+Código: 13579, Marca: Ducati, Modelo: Panigale V4, Color: Amarillo, Año: 2022, Precio: 20000, Cantidad: 9
+-----------------REPUESTOS------------------
+Nombre: Bujía, Marca: NGK, Código: B06, Precio: 12, Cantidad: 8
+Nombre: Cadena de Transmisión, Marca: RK, Código: B07, Precio: 50, Cantidad: 12
+Nombre: Amortiguador Trasero, Marca: Ohlins, Código: B08, Precio: 300, Cantidad: 6
+Nombre: Escape, Marca: Akrapovic, Código: B09, Precio: 500, Cantidad: 4
+Nombre: Amortiguador delantero, Marca: Ohlins, Código: B10, Precio: 270, Cantidad: 6
+---------------------------------------
+nombre: Carolina, apellido: Gonzalez, codigo: 010, dni: 32109876, teléfono: 976543210, sexo: Femenino, dirección: Avenida J, edad: 31
+-----------------MOTOS------------------
+Código: 12345, Marca: Honda, Modelo: CBR650R, Color: Rojo, Año: 2021, Precio: 10000, Cantidad: 10
+Código: 56789, Marca: Kawasaki, Modelo: Ninja 650, Color: Verde, Año: 2022, Precio: 9000, Cantidad: 12
+Código: 98765, Marca: Yamaha, Modelo: YZF-R1, Color: Azul, Año: 2020, Precio: 15000, Cantidad: 11
+Código: 24680, Marca: Suzuki, Modelo: GSX-R750, Color: Negro, Año: 2021, Precio: 11000, Cantidad: 8
+Código: 13579, Marca: Ducati, Modelo: Panigale V4, Color: Amarillo, Año: 2022, Precio: 20000, Cantidad: 9
+-----------------REPUESTOS------------------
+Nombre: Bujía, Marca: NGK, Código: B06, Precio: 12, Cantidad: 8
+Nombre: Cadena de Transmisión, Marca: RK, Código: B07, Precio: 50, Cantidad: 12
+Nombre: Amortiguador Trasero, Marca: Ohlins, Código: B08, Precio: 300, Cantidad: 6
+Nombre: Escape, Marca: Akrapovic, Código: B09, Precio: 500, Cantidad: 4
+Nombre: Amortiguador delantero, Marca: Ohlins, Código: B10, Precio: 270, Cantidad: 6

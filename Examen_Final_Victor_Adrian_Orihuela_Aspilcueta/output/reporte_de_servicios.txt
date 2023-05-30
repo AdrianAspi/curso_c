@@ -1,0 +1,25 @@
+nombre: Cambio de aceite, código: 001, descripción: Cambio de aceite y filtro de aceite, precio: 50
+clientes que adquirieron el servicio
+nombre: Laura, apellido: Torres, codigo: 006, dni: 98765432, teléfono: 954321098, sexo: Femenino, dirección: Avenida F, edad: 27
+nombre : juan, tiempo servicio : nombre: Jose, apellido: Sanchez, codigo: 007, dni: 34567890, teléfono: 967890543, sexo: Masculino, dirección: Calle G, edad: 33
+nombre : juan, tiempo servicio : nombre: Sofia, apellido: Martinez, codigo: 008, dni: 09876543, teléfono: 943210987, sexo: Femenino, dirección: Avenida H, edad: 29
+nombre : juan, tiempo servicio : nombre: Andres, apellido: Hernandez, codigo: 009, dni: 56789012, teléfono: 921098765, sexo: Masculino, dirección: Calle I, edad: 34
+nombre : juan, tiempo servicio : nombre: Carolina, apellido: Gonzalez, codigo: 010, dni: 32109876, teléfono: 976543210, sexo: Femenino, dirección: Avenida J, edad: 31
+nombre : juan, tiempo servicio : nombre: Alineación y balanceo, código: 002, descripción: Alineación de las ruedas y balanceo de los neumáticos, precio: 80
+clientes que adquirieron el servicio
+nombre: Laura, apellido: Torres, codigo: 006, dni: 98765432, teléfono: 954321098, sexo: Femenino, dirección: Avenida F, edad: 27
+nombre : Maria, tiempo servicio : nombre: Jose, apellido: Sanchez, codigo: 007, dni: 34567890, teléfono: 967890543, sexo: Masculino, dirección: Calle G, edad: 33
+nombre : Maria, tiempo servicio : nombre: Sofia, apellido: Martinez, codigo: 008, dni: 09876543, teléfono: 943210987, sexo: Femenino, dirección: Avenida H, edad: 29
+nombre : Maria, tiempo servicio : nombre: Andres, apellido: Hernandez, codigo: 009, dni: 56789012, teléfono: 921098765, sexo: Masculino, dirección: Calle I, edad: 34
+nombre : Maria, tiempo servicio : nombre: Carolina, apellido: Gonzalez, codigo: 010, dni: 32109876, teléfono: 976543210, sexo: Femenino, dirección: Avenida J, edad: 31
+nombre : Maria, tiempo servicio : nombre: Limpieza de inyectores, código: 003, descripción: Limpieza y desobstrucción de los inyectores de combustible, precio: 60
+clientes que adquirieron el servicio
+nombre: Laura, apellido: Torres, codigo: 006, dni: 98765432, teléfono: 954321098, sexo: Femenino, dirección: Avenida F, edad: 27
+nombre : Pedro, tiempo servicio : nombre: Jose, apellido: Sanchez, codigo: 007, dni: 34567890, teléfono: 967890543, sexo: Masculino, dirección: Calle G, edad: 33
+nombre : Pedro, tiempo servicio : nombre: Sofia, apellido: Martinez, codigo: 008, dni: 09876543, teléfono: 943210987, sexo: Femenino, dirección: Avenida H, edad: 29
+nombre : Pedro, tiempo servicio : nombre: Andres, apellido: Hernandez, codigo: 009, dni: 56789012, teléfono: 921098765, sexo: Masculino, dirección: Calle I, edad: 34
+nombre : Pedro, tiempo servicio : nombre: Carolina, apellido: Gonzalez, codigo: 010, dni: 32109876, teléfono: 976543210, sexo: Femenino, dirección: Avenida J, edad: 31
+nombre : Pedro, tiempo servicio : nombre: Cambio de pastillas de freno, código: 004, descripción: Cambio de las pastillas de freno delanteras y traseras, precio: 120
+clientes que adquirieron el servicio
+nombre: Revisión general, código: 005, descripción: Revisión completa del vehículo y detección de posibles problemas, precio: 100
+clientes que adquirieron el servicio
