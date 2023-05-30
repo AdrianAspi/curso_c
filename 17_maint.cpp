@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "17_herencia_murcielago.cpp"
+#include "17_herencia_murcielago.cpp"//agregar archivos cpp
 using namespace std;
 int main(){
     //declaracion en inicializacion

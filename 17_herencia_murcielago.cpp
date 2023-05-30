@@ -4,13 +4,18 @@
 
 using namespace std;
 
+//clase murcielago 
+
 class Murcielago:Animal{
     private:
+    //atributos
     string nombre;
     public:
+    //contructor con herencia
     Murcielago(string _nombre,string _familia,int _patas,int _dientes,bool _ojos,bool _orejas,bool _cola):Animal(_familia,_patas,_dientes,_ojos,_orejas,_cola){
         nombre=_nombre;
     }
+    //getter and setter
     string getFamiliaM(){
         return familia;
     }
@@ -18,13 +23,19 @@ class Murcielago:Animal{
         familia=_familiaM;
     }
 };
+
+//clase perro
+
 class Perro:Animal{
     private:
+    //atributo
     int edad;
+    //contructor con herencia
     public:
     Perro(int _edad,string _familia,int _patas,int _dientes,bool _ojos,bool _orejas,bool _cola):Animal(_familia,_patas,_dientes,_ojos,_orejas,_cola){
         edad=_edad;
     }
+    //getter and setter
     string getFamiliaP(){
         return familia;
     }
@@ -32,13 +43,19 @@ class Perro:Animal{
         familia=_familiaM;
     }
 };
+
+//clase gato
+
 class Gato:Animal{
     private:
+    //atributo
     string nacionalidad;
     public:
+    //constructor conherencia
     Gato(string _nacionalidad,string _familia,int _patas,int _dientes,bool _ojos,bool _orejas,bool _cola):Animal(_familia,_patas,_dientes,_ojos,_orejas,_cola){
         nacionalidad=_nacionalidad;
     }
+    //getter and setter
     string getFamiliaG(){
         return familia;
     }

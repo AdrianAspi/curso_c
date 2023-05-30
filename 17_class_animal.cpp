@@ -22,6 +22,7 @@ class Animal{
         orejas=_orejas;
         cola=_cola;
     }
+    //getter and setter
     string getFamilia(){
         return familia;
     };
